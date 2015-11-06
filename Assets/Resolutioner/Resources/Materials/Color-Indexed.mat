@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Color-Indexed
+  m_Shader: {fileID: 4800000, guid: 02fa1be97fa188f4291674911f35855b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Palette
+        second:
+          m_Texture: {fileID: 2800000, guid: 99a26bf5b93d3a043a920627ca664e51, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Palette16
+        second:
+          m_Texture: {fileID: 2800000, guid: 516f87bb45e51b64d92da5a270645652, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _LightOffset
+        second: 0
+      data:
+        first:
+          name: _GammaCorrection
+        second: 1
+      data:
+        first:
+          name: _ExtraLight
+        second: 0
+      data:
+        first:
+          name: _Bits
+        second: 16
+      data:
+        first:
+          name: _PaletteSize
+        second: 16
+    m_Colors:
+      data:
+        first:
+          name: _TestColor
+        second: {r: .5, g: .5, b: .5, a: 1}

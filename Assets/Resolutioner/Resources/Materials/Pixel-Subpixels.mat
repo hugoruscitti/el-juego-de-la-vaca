@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Pixel-Subpixels
+  m_Shader: {fileID: 4800000, guid: 1be625699921cd0478a45d8ce6d8b251, type: 3}
+  m_ShaderKeywords: _RGBMODE_ON _RGBORCMY_ON _USEGRAYSCALE_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Pixel
+        second:
+          m_Texture: {fileID: 2800000, guid: acd6d2c556b11af45813329650902c6c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Dithering
+        second:
+          m_Texture: {fileID: 2800000, guid: 2b9df390ea519d54ab56b3659d74d66a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Palette
+        second:
+          m_Texture: {fileID: 2800000, guid: 9bb1265b762bd804598745da2c938ada, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Palette16
+        second:
+          m_Texture: {fileID: 2800000, guid: 9bb1265b762bd804598745da2c938ada, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AdvancedPalette
+        second:
+          m_Texture: {fileID: 2800000, guid: 9bb1265b762bd804598745da2c938ada, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Textur
+        second:
+          m_Texture: {fileID: 2800000, guid: f731d83065a431c4e8a109c3e504e7da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTextur
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_4428
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Null
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PixelMask
+        second:
+          m_Texture: {fileID: 2800000, guid: 76c95bdf85063af41aac9d6bfb6fb888, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Width
+        second: 803
+      data:
+        first:
+          name: _Height
+        second: 713
+      data:
+        first:
+          name: _PixelWidth
+        second: 3
+      data:
+        first:
+          name: _PixelHeight
+        second: 3
+      data:
+        first:
+          name: _ColorCount
+        second: 16
+      data:
+        first:
+          name: _LightOffset
+        second: 0
+      data:
+        first:
+          name: _GammaCorrection
+        second: 2.97000003
+      data:
+        first:
+          name: _DitheringLevels
+        second: 5
+      data:
+        first:
+          name: _DitherTileSize
+        second: 2
+      data:
+        first:
+          name: _Light
+        second: .358999997
+      data:
+        first:
+          name: _Threeshold
+        second: .5
+      data:
+        first:
+          name: _PixelSize
+        second: 4
+      data:
+        first:
+          name: _Offset
+        second: .0450999998
+      data:
+        first:
+          name: _UseGrayScale
+        second: 1
+      data:
+        first:
+          name: _LightMode
+        second: 0
+      data:
+        first:
+          name: _Gamma
+        second: .800000012
+      data:
+        first:
+          name: _ExtraLight
+        second: 0
+      data:
+        first:
+          name: _IndexPaletteMode
+        second: 0
+      data:
+        first:
+          name: _LightCompensation
+        second: .200000003
+      data:
+        first:
+          name: _PixelScale
+        second: 3
+      data:
+        first:
+          name: _MaskWidth
+        second: 4
+      data:
+        first:
+          name: _MaskHeight
+        second: 4
+      data:
+        first:
+          name: _RGBorCMY
+        second: 1
+      data:
+        first:
+          name: _RGBMode
+        second: 0
+      data:
+        first:
+          name: _ColorBits
+        second: 8
+      data:
+        first:
+          name: _Contrast
+        second: .52700001
+      data:
+        first:
+          name: _Brightness
+        second: .0261000004
+      data:
+        first:
+          name: _BlueGamma
+        second: 1.90999997
+      data:
+        first:
+          name: _K1
+        second: 0
+      data:
+        first:
+          name: _K2
+        second: 0
+      data:
+        first:
+          name: _K
+        second: .100000001
+    m_Colors:
+      data:
+        first:
+          name: _LightColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DarkColor
+        second: {r: 0, g: 0, b: 0, a: 1}
