@@ -4,18 +4,24 @@ using CnControls;
 
 public class playerController : MonoBehaviour {
 	public float speed;
-	private Vector3 newPos;
+	private Vector3 direction;
+	public GameObject target;
+	private Vector3 advance;
+	public float runningSpeed;
+
+	void Start() {
+		advance = new Vector3(1, 0, 0);
+	}
 
 	void Update () {
-		Vector3 position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-
 		Vector3 movementKeyboard = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		Vector3 movementJoystick = new Vector3(CnInputManager.GetAxis("Horizontal"), 0, CnInputManager.GetAxis("Vertical"));
 
-		newPos = position + (movementKeyboard + movementJoystick) * speed;
+		direction = (movementKeyboard + movementJoystick) * speed;
 	}
 
 	void FixedUpdate() {
-		transform.position = newPos;
+		target.transform.Translate(direction);
+		target.transform.Translate(advance * runningSpeed);
 	}
 }
