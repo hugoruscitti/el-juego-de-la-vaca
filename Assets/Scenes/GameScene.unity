@@ -279,7 +279,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447828, guid: 88dc5ed2de2e84d14945478b8f78f94a, type: 2}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 183126, guid: 88dc5ed2de2e84d14945478b8f78f94a, type: 2}
       propertyPath: m_Name
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cow: {fileID: 52629399}
-  cameraSpeed: 3
+  cameraSpeed: 2
   deltaPosition: -36
 --- !u!4 &1034712727 stripped
 Transform:
@@ -1293,7 +1293,6 @@ MonoBehaviour:
   m_SubmitButton: Submit
   m_CancelButton: Cancel
   m_InputActionsPerSecond: 10
-  m_RepeatDelay: .5
   m_AllowActivationOnMobileDevice: 0
 --- !u!114 &1046523681
 MonoBehaviour:
@@ -1888,7 +1887,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447828, guid: 88dc5ed2de2e84d14945478b8f78f94a, type: 2}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 183126, guid: 88dc5ed2de2e84d14945478b8f78f94a, type: 2}
       propertyPath: m_Name
@@ -2204,8 +2203,8 @@ Transform:
   - {fileID: 273071650}
   - {fileID: 918639287}
   - {fileID: 324224495}
-  - {fileID: 1591318380}
   - {fileID: 1410704584}
+  - {fileID: 1591318380}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!1 &1914153997
@@ -2238,6 +2237,7 @@ MonoBehaviour:
   speed: 1
   target: {fileID: 52629399}
   runningSpeed: .800000012
+  reduceHorizontalSpeedFactor: .300000012
 --- !u!4 &1914153999
 Transform:
   m_ObjectHideFlags: 0
