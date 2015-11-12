@@ -9,8 +9,10 @@ public class playerController : MonoBehaviour {
 	private Vector3 advance;
 	public float runningSpeed;
 	public float reduceHorizontalSpeedFactor;
+	private bool areRunningEnabled;
 
 	void Start() {
+		areRunningEnabled = false;
 		advance = new Vector3(1, 0, 0);
 	}
 
@@ -22,7 +24,13 @@ public class playerController : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		target.transform.Translate(direction);
-		target.transform.Translate(advance * runningSpeed);
+		if (areRunningEnabled) {
+			target.transform.Translate(direction);
+			target.transform.Translate(advance * runningSpeed);
+		}
+	}
+
+	void startRunning() {
+		areRunningEnabled = true;
 	}
 }

@@ -5,7 +5,7 @@ public class startGameScript : MonoBehaviour {
 	public GameObject camera;
 	public GameObject playerController;
 
-	void Start () {
+	void onEndInitialJump () {
 		playerController.SendMessage("startRunning");
 		camera.SendMessage("startFollowCow");
 	}

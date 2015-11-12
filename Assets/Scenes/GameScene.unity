@@ -212,7 +212,6 @@ Transform:
   m_Children:
   - {fileID: 1507952640}
   - {fileID: 1914153999}
-  - {fileID: 1662648873}
   m_Father: {fileID: 0}
   m_RootOrder: 6
 --- !u!54 &52629404
@@ -1607,7 +1606,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3.4000001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1662648873}
   m_Father: {fileID: 52629403}
   m_RootOrder: 0
 --- !u!95 &1507952641
@@ -1638,6 +1638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac78ee2bebc5b45c4ad16650350a4582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 1004436972}
+  playerController: {fileID: 1914153997}
 --- !u!4 &1520021072 stripped
 Transform:
   m_PrefabParentObject: {fileID: 447828, guid: 88dc5ed2de2e84d14945478b8f78f94a, type: 2}
@@ -2015,11 +2017,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1662648871}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.44000006, y: -.109999999, z: -.720000029}
+  m_LocalPosition: {x: 0, y: 3.28999996, z: -.720000029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 52629403}
-  m_RootOrder: 2
+  m_Father: {fileID: 1507952640}
+  m_RootOrder: 0
 --- !u!1 &1691926839
 GameObject:
   m_ObjectHideFlags: 0
