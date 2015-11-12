@@ -19,7 +19,7 @@ TagManager:
   - PlayerLayer
   - 
   - 
-  - 
+  - Nubes
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: background
     uniqueID: 2805736039
+    locked: 0
+  - name: nubes
+    uniqueID: 4107933369
     locked: 0
   - name: game
     uniqueID: 166104919
