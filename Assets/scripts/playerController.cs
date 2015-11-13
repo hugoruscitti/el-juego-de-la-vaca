@@ -10,10 +10,13 @@ public class playerController : MonoBehaviour {
 	public float runningSpeed;
 	public float reduceHorizontalSpeedFactor;
 	private bool areRunningEnabled;
+	private float distanceCounter;
+	public GameObject PuntajeController;
 
 	void Start() {
 		areRunningEnabled = false;
 		advance = new Vector3(1, 0, 0);
+		distanceCounter = 0f;
 	}
 
 	void Update () {
@@ -27,7 +30,15 @@ public class playerController : MonoBehaviour {
 		if (areRunningEnabled) {
 			target.transform.Translate(direction);
 			target.transform.Translate(advance * runningSpeed);
+			distanceCounter += runningSpeed / 10f;
 		}
+
+
+		updatePuntajeController(distanceCounter);
+	}
+
+	void updatePuntajeController(float distanceCounter) {
+		PuntajeController.SendMessage("updateCounter", distanceCounter);
 	}
 
 	void startRunning() {
